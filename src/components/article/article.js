@@ -118,4 +118,26 @@ const data = [
 function articleMaker(articleObj){
   const articleContainer = document.createElement('div');
   articleContainer.classList.add('article');
+
+  const articleTitle = document.createElement('h2');
+  articleContainer.appendChild(articleTitle);
+
+  const articleDate = document.createElement('p');
+  articleDate.classList.add('date');
+  articleContainer.appendChild(articleDate);
+
+  const paragraph1 = document.createElement('p');
+  articleContainer.appendChild(paragraph1);
+
+  const paragraph2 = document.createElement('p');
+  articleContainer.appendChild(paragraph2);
+
+  const paragraph3 = document.createElement('p');
+  articleContainer.appendChild(paragraph3);
+
+  const expandButton = document.createElement('span');
+  expandButton.classList.add('expandButton');
+  expandButton.textContent = '+';
+  articleContainer.appendChild(expandButton);
+
 }
