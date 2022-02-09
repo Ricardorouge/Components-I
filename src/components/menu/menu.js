@@ -33,7 +33,7 @@ function menuMaker(menuArray){
 
 const newMenu = menuMaker(menuItems);
 document.querySelector('.header').appendChild(newMenu);
-console.log(menuMaker(menuItems));
+
 
 /*
   Step 1: Write a component called 'menuMaker' to create a menu like the markup below:
